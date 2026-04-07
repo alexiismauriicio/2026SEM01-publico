@@ -28,3 +28,12 @@ alt.Chart(cars).mark_point().encode(
     y='Horsepower'
 ).interactive()
 ```
+
+## Visualización de Barras
+
+```{python}
+alt.Chart(cars).mark_bar().encode(
+    x='Origin',
+    y='count()'
+).interactive()
+```

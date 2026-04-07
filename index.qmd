@@ -2,7 +2,7 @@
 Title: "Bienvenidos a mi sitio Quarto"
 format: 
     html:
-        toc: true
+        toc: false
 ---
 
 # Introducción
